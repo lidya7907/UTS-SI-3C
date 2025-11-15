@@ -12,13 +12,13 @@ function setActive(link) {
 home.addEventListener("click", () => {
   setActive(home);
   konten.querySelector(".welcome-card h1").textContent = "Selamat Datang, Nama Mahasiswa";
-  konten.querySelector(".welcome-card h2").textContent = "Kelas SI-3C";
+  konten.querySelector(".welcome-card h2").textContent = "Kelas";
 });
 
 mahasiswa.addEventListener("click", () => {
   setActive(mahasiswa);
   konten.querySelector(".welcome-card h1").textContent = "Selamat Datang, Maulidya Pratiwi";
-  konten.querySelector(".welcome-card h2").textContent = "Kelas SI-3C";
+  konten.querySelector(".welcome-card h2").textContent = "Kelas SI-3X";
 });
 
 kelas.addEventListener("click", () => {
